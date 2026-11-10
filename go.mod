@@ -7,7 +7,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
 	github.com/elazarl/goproxy v0.0.0-20230731152917-f99041a5c027
-	github.com/goccy/go-yaml v1.11.3
+	github.com/goccy/go-yaml v1.19.2
 	github.com/haxii/fastproxy v0.5.37
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/dsl v0.9.2
@@ -58,7 +58,6 @@ require (
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/term v0.47.0 // indirect
-	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 )
 
 require (

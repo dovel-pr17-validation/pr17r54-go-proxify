@@ -1,0 +1,27 @@
+name: 🔨 Release Test
+
+on:
+  pull_request:
+    paths:
+      - '**.go'
+      - '**.mod'
+  workflow_dispatch:
+
+jobs:
+  release-test:
+    runs-on: ubuntu-latest-16-cores
+    steps:
+      - name: "Check out code"
+        uses: actions/checkout@v7
+        with: 
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: projectdiscovery/actions/setup/go@v1
+      
+      - name: release test
+        uses: goreleaser/goreleaser-action@v7
+        with:
+          args: "release --clean --snapshot"
+          version: latest
+          workdir: .

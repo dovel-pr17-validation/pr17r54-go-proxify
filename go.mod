@@ -8,7 +8,7 @@ require (
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
 	github.com/elazarl/goproxy v0.0.0-20230731152917-f99041a5c027
 	github.com/goccy/go-yaml v1.11.3
-	github.com/haxii/fastproxy v0.5.37
+	github.com/haxii/fastproxy v0.6.1
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/dsl v0.9.2
 	github.com/projectdiscovery/fastdialer v0.6.2
